@@ -3,7 +3,7 @@ Android Test
 
 Web View Interaction sayfasında “Say Hello Demo” seçeneği
 ---------------------------------------------------------
-Tags:view-interaction-sayfasinda-say-hello-demo-secenegi
+Tags:web-view-interaction-sayfasinda-say-hello-demo-secenegi
 * Permission sayfası geçilip uygulamanın açıldığı görülür
 * Chrome butonuna tıklanır ve ilgili sayfanın açıldığı kontrol edilir
 * Aksiyon listesi dropdownuna tıklanır
@@ -13,6 +13,21 @@ Tags:view-interaction-sayfasinda-say-hello-demo-secenegi
 * Markası adı "Mercedes" olan seçenek işaretlenir
 * Send me your name butonuna tıklanır
 * Atılan requestin formatının "http://localhost:4450/sayhello?name=test&car=mercedes" şeklinde olduğu kontrol edilir
+
+Web View Interaction sayfasında “Say Hello Demo” seçeneği kontrol edildikten sonra anasayfaya dönülmesi
+---------------------------------------------------------
+Tags:web-view-interaction-sayfasinda-say-hello-demo-secenegi-kontrol-edildikten-sonra-anasayfaya-donulmesi
+* Permission sayfası geçilip uygulamanın açıldığı görülür
+* Chrome butonuna tıklanır ve ilgili sayfanın açıldığı kontrol edilir
+* Aksiyon listesi dropdownuna tıklanır
+* Aksiyon listesinden "Say Hello" aksiyonu seçilir
+* Enter your name here alanı temizlenir ve "test" yazılır
+* Araba markası seçmek için dropdown açılır
+* Markası adı "Mercedes" olan seçenek işaretlenir
+* Send me your name butonuna tıklanır
+* Atılan requestin formatının "http://localhost:4450/sayhello?name=test&car=mercedes" şeklinde olduğu kontrol edilir
+* Go to home screen butonuna tıklanır
+* Anasayfaya dönüldüğü kontrol edilir
 
 Touch Actions alanında tıklama kontrolü
 --------------------------------------------
@@ -28,4 +43,6 @@ Tags:uygulamanin-kapatilmasi
 * Permission sayfası geçilip uygulamanın açıldığı görülür
 * Uygulamayı sonlandırmak için END butonuna basılır ve ilgili popup var mı kontrol edilir
 * Uygulama kapatmak için çıkan popupta ok butonuna basılır ve uygulamanın kapandığı görülür
+
+
 

@@ -14,7 +14,7 @@
     "iosType": ""
   },
   {
-    "key": "HomePage_ApplicationENDButton",
+    "key": "HomePage_ApplicationENButton",
     "androidValue": "io.selendroid.testapp:id/buttonTest",
     "androidType": "id",
     "iosValue": "",

@@ -20,3 +20,6 @@
 
 # Atılan requestin formatının <text> şeklinde olduğu kontrol edilir
 * "WebviewInteraction_RequestLocation" elementi <text> değerini içeriyor mu kontrol et
+
+# Go to home screen butonuna tıklanır
+* "WebViewInteraction_goToHomeScreenButton" li elementi bul ve tıkla

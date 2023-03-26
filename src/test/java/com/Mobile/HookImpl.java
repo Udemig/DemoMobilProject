@@ -86,7 +86,6 @@ public class HookImpl {
 
     }
 
-
     @AfterScenario
     public void afterScenario() {
         if (appiumDriver != null)

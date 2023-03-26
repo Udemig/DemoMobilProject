@@ -1,4 +1,3 @@
-
 # Throw Exception butonuna tıklanır
 * "HomePage_PressThrowExceptionButton" li elementi bul ve tıkla
 
@@ -22,5 +21,8 @@
 # Chrome butonuna tıklanır ve ilgili sayfanın açıldığı kontrol edilir
 * "HomePage_ChromeButton" li elementi bul ve tıkla
 * Textinde "Web View Interaction" geçen element var mı
+
+# Anasayfaya dönüldüğü kontrol edilir
+* "HomePage_ApplicationENButton" li element var mı
 
 

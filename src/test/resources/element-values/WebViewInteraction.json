@@ -40,6 +40,13 @@
     "androidType": "id",
     "iosValue": "",
     "iosType": ""
+  },
+  {
+    "key": "WebViewInteraction_goToHomeScreenButton",
+    "androidValue": "io.selendroid.testapp:id/goBack",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
   }
 ]
 
